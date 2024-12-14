@@ -1,0 +1,32 @@
+GCP URL : https://fapi-cross-sell-792838167569.us-central1.run.app/docs
+Web UI streamlit : https://cross-sell-insurance-prediction.streamlit.app/
+
+
+Input :
+
+Scenario 1: Return 0
+{
+  "Gender": "Male",
+  "Age": 25,
+  "Driving_License": 1,
+  "Region_Code": 11,
+  "Previously_Insured": 1,
+  "Vehicle_Age": "< 1 Year",
+  "Vehicle_Damage": "No",
+  "Annual_Premium": 35786,
+  "Policy_Sales_Channel": 152,
+  "Vintage": 53
+}
+Scenario 2: Return 1
+{
+  "Gender": "Male",
+  "Age": 40,
+  "Driving_License": 1,
+  "Region_Code": 28,
+  "Previously_Insured": 0,
+  "Vehicle_Age": "1-2 Year",
+  "Vehicle_Damage": "Yes",
+  "Annual_Premium": 33762,
+  "Policy_Sales_Channel": 7,
+  "Vintage": 111
+}
